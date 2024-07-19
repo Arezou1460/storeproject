@@ -1,0 +1,13 @@
+<form class="d-flex justify-content-between ms-2" role="search">
+    <div>
+        <input #s 
+        type="text" 
+        placeholder="Search Product Mine!" 
+        (keyup.enter)="search(s.value)" 
+        [value]="searchTerm" />
+        <button (click)="search(s.value)">Search</button>
+    </div>
+    <div class="badge text-wrap fs-6 mb-1 me-2 alert alert-danger" 
+        >Today's Date : {{ todaydate }}</div>
+</form>
+
