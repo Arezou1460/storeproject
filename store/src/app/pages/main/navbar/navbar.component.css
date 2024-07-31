@@ -1,0 +1,39 @@
+nav ul {
+    float: left;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem;
+    margin-left: 1rem;
+	margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-link:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: red;
+}
+    	 	    			
+  
+a.btn {
+	margin-left: 59rem;
+	color: black;
+}
+
+a.btn-outline-danger {
+	margin-left: 0.5rem;
+	height: 2.6rem;
+	padding-top: 0.01rem;
+	width: 5rem;
+}
+    

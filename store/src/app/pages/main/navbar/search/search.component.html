@@ -1,0 +1,18 @@
+<section>
+    <div class="d-flex justify-content-end">
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-4">
+                <div>
+                    <input #s 
+                    type="text" 
+                    placeholder="Search Product Mine!" 
+                    (keyup.enter)="search(s.value)" 
+                    [value]="searchTerm" />
+                        <button class="me-5" (click)="search(s.value)">Search</button>
+                </div>
+            </div>
+        </div>
+            <div class="alert alert-danger fs-7 me-1" role="alert"
+            >Today's Date : {{ todaydate }}</div>
+    </div>
+</section>

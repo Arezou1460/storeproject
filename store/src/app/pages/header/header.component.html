@@ -1,0 +1,32 @@
+<header>
+    <marquee>Hello Ladies   <i class="bi bi-exclamation-lg"></i><i class="bi bi-suit-heart"></i><i class="bi bi-exclamation-lg"></i>
+      Welcome To <strong class="text-danger fs-3 fst-italic"> AS </strong> Ladies Store 
+    </marquee>
+    <div class="container">
+      <img src="assets/images/1p.JPG" alt="Logo..."/>
+      <a routerLink="/" class="fs-4 fw-bold link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Store Mine !</a>
+        <nav>
+            <ul>
+              <div class="d-flex justify-content-end">
+                <li class="d-flex align-items-center">
+                  <a class="btn btn-outline-warning px-2 py-2 me-3" routerLink="/login">Login | Register</a>
+                </li>
+              </div>
+                <li class="menu-container">
+                    <a routerLink="/dashboard" class="fs-4 px-5 fw-bold link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Tina</a>
+                    <div class="menu">
+                        <a routerLink="/profile">Profile</a>
+                        <a routerLink="/orders">Orders</a>
+                        <a>Logout</a>
+                    </div>
+                </li>
+                <li>
+                  <a class="btn btn-outline-danger" routerLink="cart-page">
+                    <span class="rounded-2 border ps-1 fs-6" *ngIf="cartQuantity">{{ cartQuantity }}</span>
+                      <i class="bi bi-cart2 fs-5 ps-2"></i>
+                  </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

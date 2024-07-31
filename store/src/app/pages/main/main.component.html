@@ -1,0 +1,67 @@
+<app-not-found
+    [visible]="!products || !products.length"
+    resetLinkText="Reset Search">
+</app-not-found>
+
+<ul class="container">
+  <li *ngFor="let product of products">
+    <a routerLink="/product/{{ product.id }}">
+      <div class="off" *ngIf="product.discountPrice">
+        {{ ( 100 - ( product.discountPrice / product.price ) * 100 ).toFixed(0) }}% OFF</div>
+        
+      <img [src]="product.imageUrl" [alt]="product.name" />
+
+      <div class="stock ps-2 pt-2"
+      [ngStyle]="{ fontWeight: 'bold', color: product.is_in_inventory ? 'green' : 'red' }">
+        {{ product.is_in_inventory ? "Available in Stock" : "Not Available in Stock" }}
+      </div>
+
+      <div class="content">
+        <div class="name">
+          {{ product.name }}
+        </div>
+        <span class="favorite {{ product.favorite ? '' : 'not' }}">
+          <i class="bi bi-heart-fill"></i>
+        </span>
+
+        <div class="stars">
+          <star-rating
+            [value]="product.stars"
+            [totalstars]="5"
+            checkedcolor="red"
+            uncheckedcolor="black"
+            size="1.5rem"
+            [readonly]="true"
+          >
+          </star-rating>
+        </div>
+
+        <div class="store-item-footer">
+          <div class="origins">
+            <span *ngFor="let origin of product.origins">
+              {{ origin }}
+            </span>
+          </div>
+
+          <div class="delivery-day">
+            <span>
+              <i class="bi bi-calendar-date"></i>
+            </span>
+            {{ product.deliveryDay }}
+          </div>
+        </div>
+
+        <div class="price">
+          <span>
+            {{ product.price | currency }}
+          </span>
+        </div> 
+      </div>
+    </a>
+  </li>
+</ul>
+<a class="to-the-top ps-4 fs-4" href="#top">
+  <button type="button" class="btn btn-outline-danger mb-2"> To the top
+    <span class="arrow" aria-hidden="true"><i class="bi bi-arrow-up"></i></span>
+  </button>
+</a>
