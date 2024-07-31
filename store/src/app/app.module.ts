@@ -21,6 +21,8 @@ import { TitleComponent } from './pages/title/title.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { DateService } from './services/date.service';
 import { CarouselDirective } from './carousel.directive';
+import { TagsComponent } from './pages/tags/tags.component';
+
 
 
 @NgModule({
@@ -39,7 +41,8 @@ import { CarouselDirective } from './carousel.directive';
     CartPageComponent,
     TitleComponent,
     NotFoundComponent,
-    CarouselDirective
+    CarouselDirective,
+    TagsComponent
   ],
   imports: [
     BrowserModule,

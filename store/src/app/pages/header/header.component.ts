@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/services/auth.service';
 import { CartService } from 'src/app/services/cart.service';
 
 @Component({
@@ -10,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   cartQuantity= 0;
 
-  constructor(cartService: CartService) {
+  constructor(public auth:AuthService, cartService: CartService) {
     cartService.getCartObservable().subscribe((newCart) => {
       this.cartQuantity = newCart.totalCount;
     })

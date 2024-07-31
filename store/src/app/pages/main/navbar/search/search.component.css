@@ -1,23 +1,14 @@
-nav ul {
-    float: left;
-    list-style: none;
-}
-
-nav ul li {
-    float: left;
-}
-                 
- div {
+div {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
 }
 
 input {
     border-radius: 10rem 0 0 10rem;
     border: none;
     height: 3rem;
-    width: 30rem;
+    width: 23rem;
     background-color: #f1f1f1;
     padding: 1.2rem;
     font-size: 1.1rem;
@@ -36,11 +27,15 @@ div button {
     color: white;
     opacity: 0.8rem;
     outline: none;
+    margin-right: 1rem;
 }
 
 div button:hover {
     opacity: 1;
     cursor: pointer;
 }
+
+
+
 
 

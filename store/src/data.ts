@@ -1,4 +1,5 @@
 import { Product } from './app/shared/models/Product';
+import { Tag } from './app/shared/models/Tag';
 
 export const sample_products: Product[] = [
     {
@@ -12,6 +13,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/1.png',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '2',
@@ -24,6 +26,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/2.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '3',
@@ -36,6 +39,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/3.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '4',
@@ -48,6 +52,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/4.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '5',
@@ -60,6 +65,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/5.png',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '6',
@@ -72,6 +78,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/6.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '7',
@@ -84,6 +91,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/7.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '8',
@@ -96,6 +104,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/8.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '9',
@@ -108,6 +117,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/9.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '10',
@@ -120,6 +130,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/10.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Mascara'],
     },
     {
         id: '11',
@@ -132,6 +143,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/11.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '12',
@@ -144,6 +156,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/12.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '13',
@@ -156,6 +169,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/13.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '14',
@@ -168,6 +182,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/14.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '15',
@@ -180,6 +195,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/15.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '16',
@@ -192,6 +208,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/16.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '17',
@@ -204,6 +221,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/17.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '18',
@@ -216,6 +234,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/18.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '19',
@@ -228,6 +247,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/19.png',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '20',
@@ -240,6 +260,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/20.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Lipstick'],
     },
     {
         id: '21',
@@ -252,6 +273,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/21.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '22',
@@ -264,6 +286,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/22.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '23',
@@ -276,6 +299,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/23.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '24',
@@ -288,6 +312,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/24.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '25',
@@ -300,6 +325,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/25.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '26',
@@ -312,6 +338,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/26.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '27',
@@ -324,6 +351,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/27.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '28',
@@ -336,6 +364,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/28.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '29',
@@ -348,6 +377,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/29.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '30',
@@ -360,6 +390,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/30.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Moisturizing Lotion'],
     },
     {
         id: '31',
@@ -372,6 +403,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/31.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '32',
@@ -384,6 +416,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/32.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '33',
@@ -396,6 +429,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/33.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '34',
@@ -408,6 +442,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/34.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '35',
@@ -420,6 +455,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/35.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '36',
@@ -432,6 +468,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/36.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '37',
@@ -444,6 +481,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/37.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '38',
@@ -456,6 +494,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/38.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '39',
@@ -468,6 +507,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/39.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '40',
@@ -480,6 +520,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/40.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '41',
@@ -492,6 +533,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/41.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '42',
@@ -504,6 +546,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/42.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '43',
@@ -516,6 +559,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/43.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '44',
@@ -528,6 +572,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/44.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '45',
@@ -540,6 +585,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/45.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Perfume'],
     },
     {
         id: '46',
@@ -552,6 +598,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/46.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '47',
@@ -564,6 +611,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/47.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '48',
@@ -576,6 +624,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/48.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '49',
@@ -588,6 +637,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/49.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '50',
@@ -600,6 +650,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/50.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '51',
@@ -612,6 +663,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/51.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '52',
@@ -624,6 +676,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/52.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '53',
@@ -636,6 +689,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/53.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '54',
@@ -648,6 +702,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/54.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '55',
@@ -660,6 +715,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/55.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Pressed Powder'],
     },
     {
         id: '56',
@@ -672,6 +728,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/56.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '57',
@@ -684,6 +741,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/57.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '58',
@@ -696,6 +754,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/58.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '59',
@@ -708,6 +767,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/59.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '60',
@@ -720,6 +780,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/60.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '61',
@@ -732,6 +793,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/61.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '62',
@@ -744,6 +806,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/62.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '63',
@@ -756,6 +819,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/63.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '64',
@@ -768,6 +832,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/64.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '65',
@@ -780,6 +845,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/65.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Face Cream'],
     },
     {
         id: '66',
@@ -792,6 +858,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/66.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '67',
@@ -804,6 +871,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/67.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '68',
@@ -816,6 +884,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/68.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '69',
@@ -828,6 +897,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/69.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '70',
@@ -840,6 +910,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/70.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '71',
@@ -852,6 +923,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/71.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '72',
@@ -864,6 +936,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/72.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '73',
@@ -876,6 +949,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/73.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '74',
@@ -888,6 +962,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/74.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '75',
@@ -900,6 +975,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/75.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '76',
@@ -912,6 +988,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/76.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '77',
@@ -924,6 +1001,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/77.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '78',
@@ -936,6 +1014,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/78.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '79',
@@ -948,6 +1027,7 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/79.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
     {
         id: '80',
@@ -960,5 +1040,18 @@ export const sample_products: Product[] = [
         imageUrl: 'assets/images/80.jpg',
         origins: ['italy'],
         deliveryDay: '2-4',
+        tags: ['Eye Shadow'],
     },
 ]
+
+export const sample_tags:Tag[] = [
+    { name: 'All', count: 80},
+    { name: 'Mascara', count: 10},
+    { name: 'Lipstick', count: 10},
+    { name: 'Moisturizing Lotion', count: 10},
+    { name: 'Perfume', count: 15},
+    { name: 'Pressed Powder', count: 10},
+    { name: 'Face Cream', count: 10},
+    { name: 'Eye Shadow', count: 15}
+]
+

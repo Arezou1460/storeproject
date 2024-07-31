@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "contact" , component: ContactComponent },
   { path: "search/:searchTerm" , component: MainComponent },
+  { path: "tag/:tag" , component: MainComponent },
   { path: "product/:id", component: ProductPageComponent },
   { path: "cart-page", component: CartPageComponent }
 ];

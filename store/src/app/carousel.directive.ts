@@ -1,5 +1,5 @@
 import { Directive, Input, TemplateRef, OnInit, ViewContainerRef } from '@angular/core';
-import { ICarouselContext } from './interfaces/app-interface';
+import { ICarouselContext } from './shared/models/Carousel';
 
 @Directive({
   selector: '[appCarousel]'
@@ -13,6 +13,13 @@ export class CarouselDirective implements OnInit {
               private viewContainerRef: ViewContainerRef) { }
 
   @Input('appCarouselFrom') images!: string[];
+
+  timer: any;
+
+  @Input('appCarouselAutoplay')
+  set autoplay(value: string) {
+    value === 'No' ? this.clearAutoPlay() : this.playAutoPlay()
+  }
 
   public ngOnInit() {
     this.context = {
@@ -40,6 +47,16 @@ export class CarouselDirective implements OnInit {
       this.index = this.images.length - 1;
     }
     this.context!.$implicit = this.images[this.index];
+  }
+
+  public playAutoPlay() {
+    this.timer = setInterval(() => {
+      this.next();
+    }, 1000);
+  }
+
+  public clearAutoPlay() {
+    clearInterval(this.timer);
   }
 
 }

@@ -29,6 +29,10 @@
             <span *ngFor="let origin of product.origins">{{ origin }}</span>
         </div>
 
+        <div class="tags">
+            <a *ngFor="let tag of product.tags" routerLink="/tag/{{tag}}">{{ tag }}</a>
+        </div>
+
         <div class="delivery-day">
             <span>
                 Day to delivery about <strong>{{ product.deliveryDay }}</strong>
